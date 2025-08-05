@@ -1,0 +1,414 @@
+@import url(https://db.onlinewebfonts.com/c/b33800a6d8a0fce53f3a67da6776ff26?family=CarmenSans-ExtraBold);
+@import url(https://db.onlinewebfonts.com/c/b33800a6d8a0fce53f3a67da6776ff26?family=CarmenSans-ExtraBold);
+@import url(https://db.onlinewebfonts.com/c/db3369e928936bdf9c71f8f5a79493c2?family=CarmenSans-Medium);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "CarmenSans-medium";
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.googleiobar {
+    margin: 0px;
+    background: linear-gradient(to right, #167AF6, #7E49F2);
+    width: 100%;
+    height: 45px;
+    color: white;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;  
+}
+.fixedbar{
+    position:sticky;
+    top: 0;
+    box-shadow: 0px -2px 10px -1px grey;
+    display: absolute;
+
+}
+
+#logo {
+    width: 135px;
+    margin-left: 10px;
+}
+
+.navbar {
+    display: flex;
+    font-size: 5px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    background-color: white;
+    padding-top: 16PX;
+    padding-bottom: 10px;
+}
+
+.logocontainer {
+    margin-top: 7px;
+    margin-left: 50px;
+}
+
+.tabscontainer {
+    margin-left:450px;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 970px;
+    height: 20px;
+    color: rgb(63, 63, 63);
+    font-size:14px ;
+    margin-right: 15px;
+}
+
+.tabgetstarted {
+    margin-top: 10px;
+    font-size: 13px;
+    background-color: #1068D7;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    padding: 7px 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 60px;
+    height: 42px;
+    width: 255px;
+}
+
+.tabsea {
+    margin-top: 12px;
+    /* margin-left: 11px;
+    margin-right: 7px; */
+    width: 107px;
+    height: 30px;
+}
+.maincover{
+    margin-top: 92px;
+    display: flex;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.herotext{
+    font-family: "CarmenSans-ExtraBold";
+    margin-top: 78px;
+    margin-left: 20px;
+    font-size: 60px;
+    margin-right: 0px;
+}
+.heroimg{
+    width: 600px;
+    height: auto;
+    margin-right: 0px;
+    margin-left: 60px;
+}
+.herosubtext{
+    font-size: 32px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-right: 220px;
+    margin-left: 220px;
+    margin-top: 100px;
+}
+
+.feature1info,.feature2info,.feature3info{
+    color: rgb(77, 76, 76);
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 20%;
+    line-height: 1.6;
+    font-size: 20px;
+    font-weight: 1;
+    margin-bottom: 50px;
+}
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+    width: 90%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.feature1title,.feature2title,.feature3title{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: "CarmenSans-ExtraBold";
+}
+.feature1img{
+    width: 350px;
+    height: auto;
+}
+.feature2img{
+    width: 350px;
+    height: auto;
+}
+.feature3img{
+    width: 350px;
+    height: auto;
+}
+.feature1,.feature2,.feature3{
+}
+.feature1{
+    margin-left: 0px;
+}
+.platformimage{
+    width: 460px;
+    height: auto;
+    margin-left: 150px;
+}
+.platformmobile,.platformweb,.platformdekstop,.platformembedded{
+    display: flex;
+    margin-right: 120px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+}
+.platformtitle{
+    color: rgb(81, 81, 81);
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.platformheading{
+    font-size: 58px;
+    font-family:"CarmenSans-Medium" ;
+}
+.platforminfobox{
+    margin-left: 160px;
+    margin-top: 100px;
+}
+.platforminfo{
+    font-size: 21px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+        margin-right: 90px;
+        margin-bottom: 30px;
+        line-height: 1.3;
+
+}
+.platformbtn{
+    color:#1068D7;
+    margin-left: 0px;
+    border: 1px solid #1068D7;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    margin-right: 350px;
+    display: flex;
+    justify-content: center;
+}
+#embed{
+    width: 250px;
+}
+.platformbtn:hover{
+    color: white;
+    background-color: #1068D7;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.testimonialcontainer{
+    box-shadow:0.5px 0.5px 10px rgb(152, 152, 152);
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 140px;
+    margin-top: 190px;
+    padding: 50px;
+    border-radius: 15px;
+    padding-top: 55px;
+    padding-bottom: 70px;
+    background-color: white;
+}
+#testilogo{
+    box-shadow:0.5px 0.5px 10px rgb(152, 152, 152);
+    border-radius: 10px;
+    width: 100px;
+    padding: 20px;
+}
+.testimonial{
+    font-size: 25px;
+}
+.testimonialengineer,.testimonialpost{
+    color: rgb(157, 157, 157);
+    font-family:  "CarmenSans-ExtraBold";
+    font-size: 21px;
+}
+.testimoniallogo{
+    margin-right: 70px;
+}
+.testimonialright{
+    margin-left: 30px;
+
+}
+.testimonialbg{
+    position: absolute;
+    width: 510px;
+    margin-left: 130px;
+    z-index: -3;
+    margin-top: 70px;
+}
+.downloadcontainer{
+    background-color: #042449;
+    margin:200px 130px;
+    margin-bottom: 70px;
+    border-radius: 40px;
+    padding:100px;
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 00px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    object-fit: fill;
+    position: relative;
+        overflow: hidden;
+    z-index: -10;
+
+}
+.downloadbox{
+    position: static;
+}
+.downloadheading{
+    font-size: 60px;
+}
+.downloadinfo{
+    margin-bottom: 40px;
+    margin-top: 7px;
+
+}
+.downloadheading{
+    margin-top: 60px;
+}
+.downloadbg{
+    width: 450px;
+    position: absolute;
+    display: block;
+    margin-top: 0px;
+    padding: 0px;
+}
+.downloadinstall{
+    color: blue;
+}
+.downloadimg{
+    margin-left:660px;
+    margin-right: 0px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.downloadinstall{
+    color: 1068D7;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 7px 30px;
+    font-size: 14px;
+}
+.downloadinstallcont{
+    display: flex;
+    align-items: center;
+    width: 230px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.aboutme{
+    background-color: #F8F9FA;
+    height: 460px;
+    display: flex;
+        margin-top: 80px;
+
+}
+.aboutmemaincontainer{
+            margin-top: 80px;
+    display: flex;
+        margin-left: 60px;
+    font-size: 15px;
+    margin-right: 0px;
+
+}
+.aboutmerightsection{
+    display: flex;
+    width: 630px;
+    margin-left: 0px;
+    justify-content: space-between;
+    margin-right: 0px;
+
+}
+.aboutmeleftsection{
+    margin-right: 450px;
+}
+.aboutmecontainer,.learningfluttercontainer,.multiplatormcontainer{
+    color: grey;
+    line-height: 2.2;
+}
+.Careers:hover,.News:hover,.Brand:hover,.Culture:hover,
+.learningjourney:hover,.Codelabs:hover,.Samples:hover,.Cookbook:hover,
+.multiplatformmobile:hover,.multiplatformweb:hover,.multiplatformembedded:hover,.multiplatformios:hover,.multiplatformdekstop:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hr{
+    margin: 0px 50px;
+}
+.footer{
+    display: flex;
+    margin-bottom: 60px;
+    color: rgb(50, 50, 50);
+        margin-top: 40px;
+    font-size: 13px;
+
+    
+}
+.footertext{
+    margin-right: 230px;
+    margin-left: 70px;
+}
+.footerright{
+        display: flex;
+    width: 270px;
+        margin-right: 50px;
+        justify-content: space-between;
+
+
+}
+.aboutmeicons{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.fa-linkedin,.fa-brands{
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+}
+.terms,.Privacy,.Security{
+    display: flex;
+    font-size: 13px;
+}
+.bottomsection{
+    background-color: #F8F9FA;
+    padding-bottom: 1%;
+}

@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    height: 100px;
+        overflow-y: scroll;
+
+}
+.child1{
+    width: 100px;
+    height: 200px;
+    background-color: greenyellow;
+}
+.child1:hover{
+    cursor: pointer;
+    border: 10px solid black ;
+}
+.child2{
+
+    width: 100px;
+    height: 200px;
+    background-color: rgb(47, 161, 255);
+}
+button{
+    width: 200px;
+    margin: 50px;
+    color: white;
+    background-color: red;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+button:hover{
+    background-color: rgb(255, 3, 179);
+    width: 100px;
+    color: black;
+    transition: all 1s ease;
+    border-radius: 20px;
+    box-shadow: 10px;
+}
